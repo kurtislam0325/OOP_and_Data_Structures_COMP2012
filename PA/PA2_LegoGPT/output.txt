@@ -1,0 +1,69 @@
+Welcome to PA2, basic tests for Module
+Module name = basic filter, this is a filter, filter type = reserved
+Module name = basic handler, this is a Handler, can handle topic = naiveHandler
+Module name = basic filterHandler, this is a filterHandler, filter type = reserved, handler topic = naiveFilterHandler
+-------------------------end of test 1-------------------------
+-------------------------begin of test 2-------------------------
+There is(are) 1 handler(s) in the LegoGPT
+They are:
+naiveHandler
+There is(are) 1 filter(s) in the LegoGPT
+Module name = basic filter, this is a filter, filter type = reserved
+There is(are) 2 handler(s) in the LegoGPT
+They are:
+naiveHandler
+naiveFilterHandler
+There is(are) 2 filter(s) in the LegoGPT
+Module name = basic filter, this is a filter, filter type = reserved
+Module name = basic filterHandler, this is a filterHandler, filter type = reserved, handler topic = naiveFilterHandler
+Let's train simple handlers!
+Question is: How are you? answer: Fine, thank you, and you?
+-------------------------end of test 2-------------------------
+-------------------------begin of test 3-------------------------
+Basic tests for LegoGPT
+Question is What is 3 + 5
+3 + 5 = 8
+-------------------------end of test 3-------------------------
+-------------------------begin of test 4-------------------------
+Question is What is 3 + 5
+3 + 5 = 8
+Topic is physics
+Sorry, topic not supported. Please look for supported topic.
+-------------------------end of test 4-------------------------
+-------------------------begin of test 5-------------------------
+There is(are) 2 topic(s) in the LegoGPT
+They are:
+math
+humor
+
+There is(are) 1 additional language(s) in the LegoGPT
+They are:
+Martian filter
+
+3 + 5 = 8
+- Two strings walk into a bar. The bartender says, "So what'll it be?" The first string says, "I think I'll have a beer^CjfdLk jk3s d#f67howe%^U r89nvy~~owmc63^Dz x.xvcu" "Please excuse my friend," the second string says, "He isn't null-terminated."
+-------------------------end of test 5-------------------------
+-------------------------begin of test 6-------------------------
+Let's get a humorous math answer.
+I don't know what is 3 + 5, but I know 3 + 5 = 5 + 3. Because Integers under Addition form an Abelian Group.
+Let's ask a math question in Martian.
+Before training:
+Sorry, I don't know
+After training:
+I don't know what is 3 + 5, but I know 3 + 5 = 5 + 3. Because Integers under Addition form an Abelian Group.
+-------------------------end of test 6-------------------------
+-------------------------begin of test 7-------------------------
+Let's ask for a joke in Martian.
+Question is nzsuivnxni
+Before training:
+Sorry, I don't know
+After training:
+- Two strings walk into a bar. The bartender says, "So what'll it be?" The first string says, "I think I'll have a beer^CjfdLk jk3s d#f67howe%^U r89nvy~~owmc63^Dz x.xvcu" "Please excuse my friend," the second string says, "He isn't null-terminated."
+-------------------------end of test 7-------------------------
+-------------------------begin of test 8-------------------------
+Let's ask for a Martian joke.
+aaaddd12e1dverhefdf5y3vdbrtszfdddvdbbnbsdbdsbd
+Let's ask for a math joke in Martian.
+vzxcv4w2bv6qvdf
+-------------------------end of test 8-------------------------
+End of all tests!
